@@ -1,0 +1,92 @@
+@media (max-width: 576px) {
+    .main-nav {
+        width: auto;
+        height: auto;
+    }
+
+    .main-nav_ul {
+        display: none;
+    }
+
+    .hero_inner {
+        width: auto;
+        height: auto;
+    }
+
+    .hero_inner_features {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .hero_inner_features_card {
+        width: auto;
+        height: auto;
+    }
+
+    .hero_inner_features_share {
+        display: none;
+    }
+
+    .main-footer_inner_top {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        gap: 2.5rem;
+    }
+
+    .main-footer_inner {
+        width: auto;
+        height: auto;
+    }
+
+    .main-footer_inner_top_logo_desc {
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+
+    .main-footer_inner_top_logo_desc_description {
+        width: 55%;
+        height: auto;
+        text-align: center;
+    }
+
+    .main-footer_inner_top_second_thirty {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .main-footer_inner_top_four {
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+
+    .main-footer_inner_top_four_logo_links {
+        width: auto;
+        height: auto;
+        gap: 1.5rem;
+        > ion-icon {
+            font-size: 1.5rem;
+        }
+    }
+
+    .main-footer_inner_bottom_ul {
+        display: none;
+    }
+
+    .main-footer_inner_bottom {
+        text-align: center;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+    }
+}
+
+@media (max-width : 475px) {
+    .main-nav_buttons_try {
+        display: none;
+    }
+}

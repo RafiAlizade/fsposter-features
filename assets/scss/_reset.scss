@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Euclid Circular A;
+    src: url("../fonts/Euclid\ Circular\ A\ Medium.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    margin-left: 3%;
+    margin-right: 3%;
+}
